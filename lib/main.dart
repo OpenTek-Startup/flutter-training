@@ -15,7 +15,9 @@ void main() {
   Map<String, dynamic> personalData= {'name':name, "age":age, "male":male, 'fruit':fruit, "preferredNum":preferredNum};
   print(personalData);
 
-  //list method
+  /******************* 
+  list method
+  ************** */
   //adding one element at time in the list
  fruit.add('mango');
    print(personalData);
@@ -35,6 +37,16 @@ void main() {
   //the where() function return the index of a list element if exist
   var result = fruit.where((element)=>element=='lemon');
   print(result);
+
+  /**
+   * Map method's
+   */
+  //Getting a value of a particular key of the map 
+  print(personalData['age']);
+  //Getting all the keys of a map
+  print(personalData.keys.toList());
+  //Getting all the value of a map
+  print(personalData.values.toList());
 }
 
 

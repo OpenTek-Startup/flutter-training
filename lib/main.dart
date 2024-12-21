@@ -5,6 +5,7 @@
 import 'package:training/class.dart';
 import 'package:training/functionCall.dart';
 import 'package:training/functionInsideClass.dart';
+import 'package:training/setter.dart';
 import 'package:training/typeOfFunctionParameter.dart';
 
 void main() {
@@ -36,6 +37,11 @@ double resultGrade = person.displayGrade(grade);
 print(resultGrade);
 String resultName = person.displayUserName(name);
 print(resultName);
+
+Setter setter=Setter();
+
+setter.nameSetter='Brown';
+setter.ageSetter = 28;
 }
 
 

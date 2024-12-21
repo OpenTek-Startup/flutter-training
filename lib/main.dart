@@ -5,6 +5,7 @@
 import 'package:training/class.dart';
 import 'package:training/functionCall.dart';
 import 'package:training/functionInsideClass.dart';
+import 'package:training/getter.dart';
 import 'package:training/setter.dart';
 import 'package:training/typeOfFunctionParameter.dart';
 
@@ -42,6 +43,10 @@ Setter setter=Setter();
 
 setter.nameSetter='Brown';
 setter.ageSetter = 28;
+
+Getter getter = Getter();
+print(getter.age);
+print(getter.name);
 }
 
 

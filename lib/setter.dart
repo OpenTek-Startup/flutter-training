@@ -22,3 +22,8 @@ class Setter {
   }
 
 }
+
+//note that you can write a logic inside the setter for it to be consistent.
+//You can check if a value is null or empty before you set the new value of
+//a given parameter; you can take a value and multiplied it or manage it as you 
+//want when setting the new value.

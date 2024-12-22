@@ -6,6 +6,7 @@ import 'package:training/class.dart';
 import 'package:training/functionCall.dart';
 import 'package:training/functionInsideClass.dart';
 import 'package:training/getter.dart';
+import 'package:training/inheritance.practice.dart';
 import 'package:training/setter.dart';
 import 'package:training/typeOfFunctionParameter.dart';
 
@@ -47,6 +48,32 @@ setter.ageSetter = 28;
 Getter getter = Getter();
 print(getter.age);
 print(getter.name);
+
+print('*************INHERITANCE PART****************');
+print('*************PHONE PART****************');
+
+Phone phone = Phone();
+phone.height = 35;
+phone.width = 15;
+phone.phoneNumber='+237675535637';
+phone.thickness=4;
+phone.playGame();
+phone.callPerson();
+phone.callPerson();
+phone.printHeight();
+phone.printThickness();
+phone.printWidth();
+
+print('*************TELEVISION PART****************');
+Television television = Television();
+television.height = 70;
+television.width = 180;
+television.thickness= 8;
+television.playGame();
+television.printHeight();
+television.printThickness();
+television.printWidth();
+
 }
 
 

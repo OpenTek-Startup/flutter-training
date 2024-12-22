@@ -8,6 +8,7 @@ import 'package:training/functionInsideClass.dart';
 import 'package:training/getter.dart';
 import 'package:training/inheritance.practice.dart';
 import 'package:training/setter.dart';
+import 'package:training/superKeyword.dart';
 import 'package:training/typeOfFunctionParameter.dart';
 
 void main() {
@@ -64,8 +65,12 @@ phone.printHeight();
 phone.printThickness();
 phone.printWidth();
 
+
+PhoneInheritance phoneInheritance = PhoneInheritance('Samsung', 'A80', 2024);
+phoneInheritance.printYearAndModel();
+
 print('*************TELEVISION PART****************');
-Television television = Television();
+TelevisionIneritance television = TelevisionIneritance(2019, '  LG');
 television.height = 70;
 television.width = 180;
 television.thickness= 8;

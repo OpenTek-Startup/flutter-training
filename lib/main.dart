@@ -2,11 +2,13 @@
 // import 'package:training/ListMethod.dart';
 // import 'package:training/MapMethod.dart';
 // import 'package:training/dataType.dart';
+import 'package:training/abstractClass.dart';
 import 'package:training/class.dart';
 import 'package:training/functionCall.dart';
 import 'package:training/functionInsideClass.dart';
 import 'package:training/getter.dart';
 import 'package:training/inheritance.practice.dart';
+import 'package:training/override.dart';
 import 'package:training/setter.dart';
 import 'package:training/superKeyword.dart';
 import 'package:training/typeOfFunctionParameter.dart';
@@ -78,6 +80,22 @@ television.playGame();
 television.printHeight();
 television.printThickness();
 television.printWidth();
+
+Animal animal = Animal();
+animal.MakeSound();
+
+Dog dog = Dog();
+dog.MakeSound();
+
+
+//polymorphism
+Animal anotherAnimal = Dog();
+anotherAnimal.MakeSound();
+DogAbstract dogAbstract = DogAbstract();
+dogAbstract.makeSound();
+
+CatAbstract catAbstract = CatAbstract();
+catAbstract.makeSound();
 
 }
 
